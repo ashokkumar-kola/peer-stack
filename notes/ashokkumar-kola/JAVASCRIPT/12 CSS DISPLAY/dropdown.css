@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+
+    transition: all 0.375s;
+}
+body {
+    width: 100vw;
+
+    padding: 0;
+    margin: 0;
+
+    background-color: rgba(0, 0, 0, 0.815);
+    background-image: url(../../ASSETS/IMAGES/MILES\ MORALS\ N\ GWEN\ STACY.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+nav {
+    width: 100%;
+    /* height: 60px; */
+
+    background-image: radial-gradient(circle at top left, red 60%, blue );
+    color: white;
+}
+ul {
+    list-style-type: none;
+
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+nav ul li {
+    padding: 1em;
+
+    text-shadow: 5px 5px 5px orange, 5px 5px 5px blue;
+}
+nav ul li:hover {
+    background-color: skyblue;
+    color: black;
+
+}
+nav ul .vehicles-dropdown {
+    position: relative;
+}
+.dropdown {
+    display: none;
+
+    /* background-color: blue; */
+    color: white;
+
+    margin-top: 2em;
+
+    position: absolute;
+    top: 1em;
+    left: 50%;
+    transform: translate(-50%);
+}
+.dropdown li {
+    /* background-color: beige; */
+    background-color: blue;
+    padding: 1em 3em;
+
+    position: relative;
+}
+.dropdown li:hover {
+    /* display: block; */
+
+    transform: translate(50%);
+}
+.vehicles-dropdown:hover .dropdown {
+    display: block;
+}
+video {
+    width: 400px;
+
+    margin-left: 1em;
+
+    display: none;
+
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+.dropdown li:hover video{
+    display: block;
+}

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+
+    transition: all 0.35s;
+
+    /* .display {
+    display: block;
+    display: inline;
+    display: inline-block;
+    display: flex;
+    display: grid;
+    display: none;
+} */
+}
+body {
+    width: 100vw;
+
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    width: 150px;
+
+    background-color: purple;
+    color: aliceblue;
+
+    font-weight: 900;
+
+    padding: 1em 2em;
+    margin: 0.5em auto;
+    margin-left: 45%;
+
+    border: none;
+    border-radius: 25px;
+}
+input:hover {
+    background-color: orange;
+    color: black;
+}
+img {
+    width: 100%;
+    display: none;
+}
+input:hover~img{
+    display: block;
+}

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+
+    transition: all 0.375s;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-image:  radial-gradient(circle 5000px at top left, red, blue, yellow);
+    /* background-color: yellow; */
+
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-container {
+    width: 250px;
+
+    background-color: purple;
+
+    /* padding: 1em 2em; */
+
+    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+    box-shadow: 1.5px 1.5px 5px 5px blueviolet;
+                /* inset -.5px -.5px 1px 1px rgb(24, 23, 26); */
+}
+.button-container input {
+    width: 32%;
+
+    background-color: transparent;
+    color: yellow;
+
+    padding: 1.5em 2em;
+    margin: 0;
+    border: none;
+    outline: none;
+    
+}
+.button-container:has(.button-container input:hover) {
+    background-color: orange;
+}

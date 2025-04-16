@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC</title>
+
+    <link rel="stylesheet" href="../../JAVASCRIPT.css">
+
+    <!-- INTERNAL JS -->
+    <script>
+        console.log("Hey World!")
+        document.getElementById("header").innerHTML = "This is HEAD Internal JS"
+    </script>
+
+    <!-- EXTERNAL JS --> <!-- defer async -->
+    <script src="script1.js" defer async></script>
+</head>
+<body>
+    <section>
+        <h2>BASIC</h2>
+        <h3 id="header">Hey Helloo..!</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloremque ab, 
+            explicabo minima expedita qui voluptatem voluptatibus voluptate assumenda id!
+        </p>
+    </section>
+
+    <!-- INTERNAL JS -->
+    <script>
+        document.getElementById("header").innerHTML = "This is BODY Internal JS"
+    </script>
+
+    <!-- EXTERNAL JS -->
+    <script src="script2.js"></script>
+</body>
+</html>

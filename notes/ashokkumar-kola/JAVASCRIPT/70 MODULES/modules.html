@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules</title>
+
+    <!-- <link rel="stylesheet" href="./modules.js"> -->
+
+    <script src="./modules.js" type="module"></script>
+
+</head>
+<body>
+    
+    <div class="a b c d e f ">
+
+    </div>
+    
+    <script type="module">
+        // alert(import.meta.url); // script URL
+        // for an inline script - the URL of the current HTML-page
+    </script>
+
+    <script type="module">
+        // The variable is only visible in this module script
+        // let user = "John";
+
+        // window.user = "John" // window-level global 
+    </script>
+
+    <script type="module">
+        // alert(user); // Error: user is not defined
+    </script>
+
+    <script type="module">
+        //
+    </script>
+
+</body>
+</html>

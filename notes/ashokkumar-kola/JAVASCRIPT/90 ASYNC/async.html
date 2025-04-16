@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+
+            width: 100%;
+            background-color: FAFAFA;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            overflow-x: hidden;
+        }
+        h1 {
+        text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Asynchronous Programming in JavaScript </h1>
+    </div>
+    
+    <div class="container">
+        <img src="./eventloop.png" alt="">
+    </div>
+    
+
+    <script>
+        // "use strict";
+        
+        // function loadScript(src, callback) {
+        //   let script = document.createElement('script');
+        //   script.src = src;
+        //   script.onload = () => callback(script);
+        //   document.head.append(script);
+        // }
+        
+        // loadScript('https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js', script => {
+        //   alert(`Cool, the script ${script.src} is loaded`);
+        //   alert( _ ); // _ is a function declared in the loaded script
+        // });
+    </script>
+
+    <div class="container">
+        <h1>Count: <span id="counter">0</span></h1>
+        <button onclick="startCounting()">Start Counting</button>
+    </div>
+
+    <script>
+        // function startCounting() {
+        //     let count = 0;
+        //     const counterElement = document.getElementById("counter");
+
+        //     // Asynchronous counter using setInterval (Non-blocking)
+        //     const interval = setInterval(() => {
+        //         count++;
+        //         counterElement.textContent = count;
+
+        //         if (count >= 100) {  // Stop after 100
+        //             clearInterval(interval);
+        //             alert("Counting Finished!");
+        //         }
+        //     }, 10); // Update every 10ms (fast but non-blocking)
+
+        //     alert("Counting started! You can still interact.");
+        // }
+    </script>
+
+    <!-- <script src="./async.js"></script> -->
+</body>
+</html>

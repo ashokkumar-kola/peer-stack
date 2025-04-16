@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD DEL ATTRI</title>
+    <link rel="stylesheet" href="./add-del-attri.css">
+    <script src="./add-del-attri.js" defer></script>
+</head>
+<body>
+    <section>
+        <h1>ADD & DELETE ATRRIBUTES</h1>
+        <input type="text" disabled>
+    </section>
+    <section id="login-condition">
+        <form action="">
+            <input type="password" id="pwd" oninput="loginFun()">
+            <input type="submit" value="Login" id="login" disabled>
+        </form>
+    </section>
+    <section id="video-hover">
+        <div id="vid-container">
+            <video poster="../../../24_ASSETS/IMAGES/VEHICLES/car.png" src="../../../24_ASSETS/VIDEOS/blue-car-video.mp4" id="vid" autoplay loop muted onmouseover="playVid()" onmouseout="stopVid()"></video>
+            <!-- autoplay loop muted -->
+        </div>
+    </section>
+    <section id="task-circles">
+        <div class="container">
+            <div class="circle" id="cir11"></div>
+            <div class="circle" id="circle1" onmouseover="move(1)"></div>
+        </div>
+        <div class="container">
+            <div class="circle" id="cir22"></div>
+            <div class="circle" id="circle2" onmouseover="move(2)"></div>
+        </div>
+        <div class="container">
+            <div class="circle" id="cir33"></div>
+            <div class="circle" id="circle3" onmouseover="move(3)"></div>
+        </div>
+        <input type="submit" value="RESET" id="reset" onclick="reset()">
+    </section>
+    <section>
+        
+    </section>
+</body>
+</html>

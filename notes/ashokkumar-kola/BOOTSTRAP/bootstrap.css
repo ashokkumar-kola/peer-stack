@@ -1,0 +1,88 @@
+/*  */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: #f4f4f4;
+
+    line-height: 1.6;
+    padding: 20px;
+}
+section h2 {
+    text-align: center;
+    color: blue;
+    margin-top: 2em;
+}
+.bootstrap-class-name {
+    font-weight: bold;
+    color: #007bff;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+.class-heading{
+    padding: 10px 20px;
+    background-color: beige;
+    border-radius: 30px;
+}
+.container, .container-fluid {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    /* background-color: rgba(0, 255, 255, 0.633); */
+    background-color: FFFFFF;
+    font-size: larger;
+}
+.class-info{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BOOTSTRAP */
+
+
+

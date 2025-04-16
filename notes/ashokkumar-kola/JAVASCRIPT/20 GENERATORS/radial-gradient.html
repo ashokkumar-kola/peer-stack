@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK</title>
+
+    <link rel="stylesheet" href="./radial-gradient.css">
+    <script src="./radial-gradient.js" defer></script>
+
+</head>
+<body id="body">
+    <section>
+        <form > <!-- action="radialGradient()" -->
+                <fieldset>
+                    <legend>Radial Gradient Back-Ground Image</legend>
+
+                    <div class="input-container shape-spec">
+                    <select name="shape" id="shape" class="input-container shape">
+                        <option value="circle">circle</option>
+                        <option value="ellipse">ellipse</option>
+                    </select>
+
+                        <input type="text" name="size" id="size" placeholder="Size">
+                        <input type="text" name="position" id="position" placeholder="Position">
+                    </div>
+
+                    <div class="input-container color-container">
+                        <label for="startColor">Start Color</label>
+                        <input type="color" name="startColor" id="startColor" class="color">
+
+                        <label for="midColor">Mid Color</label>
+                        <input type="color" name="midColor" id="midColor" class="color">
+
+                        <label for="endColor">End Color</label>
+                        <input type="color" name="endColor" id="endColor" class="color">
+                    </div>
+                    <div>
+                        <input type="button" value="APPLY" id="apply" class="input-container" onclick="radialGradient()">
+                    </div>
+                </fieldset>
+        </form>
+ 
+        <!--  -->
+        <div id="radial-background"></div>
+    </section>
+</body>
+</html>

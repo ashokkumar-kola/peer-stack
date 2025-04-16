@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRINT SCREEN</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 2em;
+
+            transition: all 0.35s;
+        }
+        body{
+            background-color: blue;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            width: 80%;
+
+            resize: both;
+        }
+        video {
+            width: 80%;
+        }
+        input {
+            width: 150px;
+
+            font-weight: 900;
+            letter-spacing: 1px;
+            padding: 1em;
+
+            border-radius: 25px;
+            background-color: blueviolet;
+            border: none;
+        }
+        input:hover {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    
+    <div></div>
+    <img src="../../ASSETS/MILES MORALS N GWEN STACY.jpg" alt="">
+    <video src="../../ASSETS/zenitsu-moonlight-thunder-kimetsu-no-yaiba-moewalls-com.mp4" autoplay muted></video>
+    <input type="button" value="Print Screen" id="" onclick="print()">
+</body>
+</html>

@@ -12,3 +12,13 @@
 
 
 --------------------------------------------------------------------------------
+
+
+### 👧 Sree Rachana Myana
+- 📂 Folder: `notes/sreerachana/`
+- 🛠 Focus: Full Stack
+- 📝 Notes Added: ...
+- 💬 GitHub: [@sreerachana](https://github.com/sreerachana)
+
+
+--------------------------------------------------------------------------------

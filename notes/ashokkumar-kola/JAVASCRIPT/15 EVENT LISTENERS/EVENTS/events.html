@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS EVENTS</title>
+    <link rel="stylesheet" href="./events.css">
+    <script src="./events.js" defer></script>
+</head>
+<body>
+    <section>
+        <h1>EVENTS</h1>
+    </section>
+    <hr>
+    <section class="mouse-hover-events">
+        <h1>MOUSE HOVER EVENTS</h1>
+
+        <div id="container" onmouseenter="onMouseOverOut()" onmouseleave="onMouseOverOut()">
+            <!-- <img src="../../../../24_ASSETS/IMAGES/DRAGON_IMAGES/dragon_1.jpg" alt="" srcset="" id="dragonImg" class="img" > -->
+        </div>
+
+    </section>
+    <hr>
+    <section id="focus-blur">
+        <h1>ON FOCUS</h1>
+        <input type="text" name="" id="focus" onfocus="focused()" onblur="blured()">
+    </section>
+    <hr>
+    <section id="on-change">
+        <h1>ON CHANGE</h1>
+
+        <select name="" id="select" onchange="onChangeOpt()">
+            <option>red</option>
+            <option>blue</option>
+            <option>green</option>
+            <option>yellow</option>
+            <option>orange</option>
+        </select>
+
+        <h2 id="selectedContent"></h2>
+    </section>
+    <hr>
+    <section id="oniput-vs-onchange">
+        <h1>ON-INPUT VS ON-CHANGE</h1>
+
+        <div id="oniput-vs-onchange-conatiner"></div>
+
+        <div>
+            <h4>ON INPUT : R-G-B</h4>
+
+            <input type="range" name="" id="red1" min="0" max="255" value="0" oninput="onInputColor()">
+            <input type="range" name="" id="green1" min="0" max="255" value="0" oninput="onInputColor()">
+            <input type="range" name="" id="blue1" min="0" max="255" value="0" oninput="onInputColor()">
+        </div>
+
+        <div>
+            <h4>ON CHANGE : R-G-B</h4>
+
+            <input type="range" name="" id="red2" min="0" max="255" value="0" onchange="onChangeColor()">
+            <input type="range" name="" id="green2" min="0" max="255" value="0" onchange="onChangeColor()">
+            <input type="range" name="" id="blue2" min="0" max="255" value="0" onchange="onChangeColor()">
+        </div>
+    </section>
+    <hr>
+    <section id="ball-game">
+        <h1>BALL GAME</h1>
+
+        <div id="ball"></div>
+
+        <span id="arrow-container">
+            <div>
+                <input type="button" value="UP" id="up" onclick="moveBall('up')" class="arrow-button">
+            </div>
+            <div>
+                <input type="button" value="LEFT" id="left" onclick="moveBall('left')" class="arrow-button">
+                <input type="button" value="DOWN" id="down" onclick="moveBall('down')" class="arrow-button">
+                <input type="button" value="RIGHT" id="right" onclick="moveBall('right')" class="arrow-button">
+            </div>
+        </span>
+    </section>
+    <section>
+        
+    </section>
+</body>
+</html>
