@@ -1,0 +1,66 @@
+#box{
+    /* height: 200px;
+    width: 200px; */
+    background-color: blue;
+}
+.heading{
+    color: red;
+}
+button{
+    background-color: green;
+}
+#text{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+#traffic{
+    height: 600px;
+    width: 200px;
+    background-color: black;
+    padding: 60px;
+    
+}
+#red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#yellow{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#green{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+}
+#logo{
+    color: orange;
+    font-size: 25px;
+}
+button{
+    background-color: orange;
+}
+a{
+    text-decoration: none;
+    margin-right: 300px;
+    color: white;
+}
