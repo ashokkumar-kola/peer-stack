@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(212, 193, 197);">
+<center>
+    <form action="">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <table  cellpadding="20">
+                <tr>
+                    <th>Name:</th>
+                    <td><input type="text" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td><input type="email" required></td>
+                </tr>
+                <tr>
+                    <th>Password:</th>
+                    <td><input type="password" ></td>
+                </tr>
+                <tr>
+                    <th>Phone:</th>
+                    <td><input type="tel" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <td>Male<input type="radio" name="gender">
+                    Female<input type="radio" name="gender"></td>
+                </tr>
+                <tr>
+                    <th>DOB:</th>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <th>Blood Group:</th>
+                    <td><select name="drop" id="">
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td><textarea name="add" id="add" rows="5" cols="25"></textarea></td>
+                </tr>
+              
+            </table>
+        <br>
+            <input type="checkbox" id="rem">
+            <label for="rem">Remember me</label>
+            <br><br>
+            <input type="submit" value="Submit" style="height: 20%; width: 10%;">
+        </fieldset>
+    </form>
+</center>
+</body>
+</html>
